@@ -63,6 +63,6 @@ The code includes special handling for multi-select drag operations to ensure al
 - Filter and search capabilities
 - Customizable item templates
 
-Read full article - [Multi-Select Drag and Drop in Angular - A Complete Implementation Guide](https://thesyntaxdiaries.com/the-useeffect-problem-what-elite-react-developers-do-differently/)
+Read full article - [Multi-Select Drag and Drop in Angular - A Complete Implementation Guide](https://thesyntaxdiaries.com/multi-select-drag-and-drop-in-angular-a-complete-implementation-guide/)
 
 
