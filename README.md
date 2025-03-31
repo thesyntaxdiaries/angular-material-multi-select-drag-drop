@@ -1,27 +1,64 @@
-# AngularMaterialDragDropPoc
+# Angular Material Drag and Drop POC
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
+This project demonstrates Angular Material's Drag and Drop functionality, allowing users to move items between two lists. The functionality includes:
 
-## Development server
+- Drag and drop items between lists
+- Multi-select items and drag them together
+- Move selected items using buttons
+- Visual highlighting of selected items
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+1. **Drag and Drop Functionality**
+   - Uses Angular Material's DragDropModule
+   - Supports single item drag and drop
+   - Supports multi-select drag and drop
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+2. **Multi-Select Feature**
+   - Click to select/deselect items
+   - Visual indication of selected items
+   - Move multiple selected items at once
 
-## Build
+3. **Button-Based Transfer**
+   - "Move to Right" button to transfer selected items from left to right
+   - "Move to Left" button to transfer selected items from right to left
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Technical Implementation
 
-## Running unit tests
+- Angular (latest version)
+- Angular Material components
+- CDK DragDropModule
+- Responsive design for various screen sizes
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Running the Application
 
-## Running end-to-end tests
+1. Clone the repository
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Start the development server:
+   ```
+   ng serve
+   ```
+4. Open your browser to `http://localhost:4200/`
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## How to Use
 
-## Further help
+1. Click on an item to select it (click again to deselect)
+2. Select multiple items by clicking on them
+3. Drag selected items to the other list
+4. Alternatively, use the "Move to Right" or "Move to Left" buttons to transfer selected items
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Development Notes
+
+The application maintains two separate lists and tracks selections in each list. When items are moved (either by drag or button), they are transferred between lists and the selection state is cleared.
+
+The code includes special handling for multi-select drag operations to ensure all selected items are moved while maintaining their relative order.
+
+## Future Enhancements
+
+- Support for keyboard navigation
+- Sorting functionality within lists
+- Filter and search capabilities
+- Customizable item templates
