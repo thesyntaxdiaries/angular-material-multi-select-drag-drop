@@ -1,4 +1,4 @@
-# Angular Material Drag and Drop POC
+# Angular Material Drag and Drop
 
 This project demonstrates Angular Material's Drag and Drop functionality, allowing users to move items between two lists. The functionality includes:
 
@@ -11,7 +11,7 @@ This project demonstrates Angular Material's Drag and Drop functionality, allowi
 
 1. **Drag and Drop Functionality**
    - Uses Angular Material's DragDropModule
-   - Supports single item drag and drop
+   - Supports single-item drag and drop
    - Supports multi-select drag and drop
 
 2. **Multi-Select Feature**
@@ -62,3 +62,7 @@ The code includes special handling for multi-select drag operations to ensure al
 - Sorting functionality within lists
 - Filter and search capabilities
 - Customizable item templates
+
+Read full article - [Multi-Select Drag and Drop in Angular - A Complete Implementation Guide](https://thesyntaxdiaries.com/the-useeffect-problem-what-elite-react-developers-do-differently/)
+
+
